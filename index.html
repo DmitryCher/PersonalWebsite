@@ -3,55 +3,108 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Personal portfolio website</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
 	<style >
 		body{
-				/*background-color: darkgrey;*/
-				margin: 0;
+			background-color: #ffffff;
+			margin: 0;
 		}
 		.main_menu {
-				background-color: #323232;
-				margin: 0;
-				padding: 0;
-				list-style-type: none;
-				overflow: hidden;
-				/*padding-bottom: 10px;
-				padding-top: 10px;*/
-				padding-left: 10px;
-				padding-right: 10px;
+			background-color: #323232;
+			margin: 0;
+			padding: 0;
+			list-style-type: none;
+			overflow: hidden;
+			text-align: center;		
+			padding-bottom: 14px;
+			padding-top: 14px;							
 		}	
 
 		.menu_list {
-			float: left;
-			border-right-style: solid;
-			border-right-width: 1px;
-			border-right-color: #323232;
+			display: inline-block;			
+      padding: 0px 12px;
 		}
 
 		.menu-ref {
-			display: block;
-			padding: 30px 25px;
+			display: block;			
 			color: white;
-			font-size: 1.1em;
+			font-size: 0.9em;
 			text-decoration: none;
-
 			text-transform: uppercase;
-			text-align: center;	
+			/*text-align: center;			*/
 		}
+
+		.menu-ref:hover {
+    	text-decoration: none;
+    	color: #2EB398;
+		}
+		
+		.image_center {
+			border: 0;
+			display:block; 
+			margin: 60px auto;
+			max-width: 100%;
+      width: auto;
+      height: auto;	 
+		}
+
+		
+		.specials {
+			position: relative;
+		}
+		.specials::after {
+			content: '';
+			position: absolute;
+			border: 40px solid #323232;
+			border-bottom: 0px solid transparent;
+			border-right: 40px solid transparent;
+			border-left: 40px solid transparent;		
+			left: 50%;
+			bottom: -40px;
+			margin-left: -40px;
+		}		
+		/*.specials {
+		padding: 34px 10px;*/
+	}
 	</style>
 
 	
 </head>
+
 <body>
-	<nav>
+	<nav class="specials">
 		<ul class="main_menu">
-			<li class="menu_list"><a class="menu-ref" href="#">портфоліо</a></li>
-			<li class="menu_list"><a class="menu-ref" href="#">про мене</a></li>		
-			<li class="menu_list"><a class="menu-ref" href="#">блог</a></li>
-			<li class="menu_list"><a class="menu-ref" href="#">контакти</a></li>
+			<li class="menu_list">
+				<a class="menu-ref" href="#">&emsp;&emsp;портфоліо</a>
+			</li>
+			<li class="menu_list">
+				<a class="menu-ref" href="#">блог</a>
+			</li>
+			<li class="menu_list">
+				<a class="menu-ref" href="#">
+					<img src="images/logo.png" alt="Логотип" align="absmiddle" border="0">	
+				</a>
+			</li>		
+			<li class="menu_list">
+				<a class="menu-ref" href="#">про мене</a>
+			</li>
+			<li class="menu_list">
+				<a class="menu-ref" href="#">контакти</a>
+			</li>
 		</ul>	
 	</nav>
-</body>
+	
+	<div>
+		<img src="images/slider.jpg" alt="" class="image_center">
+	</div>
 	
 
-<li class="menu_list"><a class="menu-ref-logo" href="#"></a><img src="images/logo.png" alt="Логотип"></li>
+
+	<ul class="wmuSliderPagination">
+   	<li><a href="#" class="">0</a></li>
+   	<li><a href="#" class="">1</a></li>
+  </ul>
+
+</body>
 </html>
