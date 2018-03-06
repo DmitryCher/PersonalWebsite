@@ -106,12 +106,15 @@ body{
 .circle_btn a {	
 	display: block;
   border-radius: 50%;
- /* border-color: black;*/
+  border: 1px solid #323232;
   background: #2EB398;
-	width: 10px;
-  height: 10px;    
+	width: 8px;
+  height: 8px;    
 }
 
+.about-me {
+	background: #2EB398; 
+}
 /*.active {
 	background: #2EB398;
 }*/
