@@ -106,10 +106,63 @@ body{
 .circle_btn a {	
 	display: block;
   border-radius: 50%;
- /* border-color: black;*/
+  border: 1px solid #323232;
   background: #2EB398;
-	width: 10px;
-  height: 10px;    
+	width: 8px;
+  height: 8px;    
+}
+
+.about-me {
+	background: #2EB398;
+	padding: 20px 0;
+	margin: 20px 0;
+}
+
+.container {
+	border-left: 1px solid #248E78;
+  border-right: 1px solid #248E78; 
+  margin: 0 60px;
+  padding: 20px;
+}
+
+.container div {
+	/*display: inline-block;*/
+}
+
+.me-image {
+	display: inline-block;
+	width: 15%;
+	padding-right: 15px;
+  padding-left: 15px;	
+  vertical-align:top;
+}
+
+.me-image img {
+	width: 100%;	
+}
+
+.me-text {
+	display: inline-block;
+	width: 74%;
+	padding: 0 15px;
+  vertical-align: top;
+}
+
+.me-text h3 {
+	color: white;
+	margin-top: 20px;
+	margin-bottom: 10px; 
+}
+
+.me-text h4 {
+	color: #57E0C4;
+	margin: 10px 0;	
+}
+
+.me-text p {
+	color: white;
+	margin: 0 0 10px;
+	font-size: 0.8em;	
 }
 
 /*.active {
