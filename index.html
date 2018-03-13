@@ -2,13 +2,15 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Personal portfolio website</title>
+	<title>Персональний сайт Чернишова Дмитра</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <link rel="stylesheet" href="fonts/css/fontawesome-all.css">
 </head>
 
 <body>
-	<nav class="navigation">
+	<nav class="navigation" id="totop">
 		<ul>
 			<li>
 				<a href="#">&emsp;&emsp;портфоліо</a>
@@ -22,10 +24,10 @@
 				</a>
 			</li>		
 			<li>
-				<a href="#">про мене</a>
+				<a href="#me">про мене</a>
 			</li>
 			<li>
-				<a href="#">контакти</a>
+				<a href="#contacts">контакти</a>
 			</li>
 		</ul>	
 	</nav>
@@ -44,9 +46,9 @@
 		 	</li>
 		</ul>
 	</div>
-	
-	<div class="about-me">
-		<div class="container">
+
+	<div class="about-me" id="me">
+		<div class="border-me">
 			<div class="me-image">
 				<img src="images/user.png" alt="my photo">	
 			</div>	
@@ -54,12 +56,89 @@
 				<h3>Дмитро Чернишов</h3>	
 				<h4>Дизайнер і розробник веб-сторінок	</h4>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+			
+			  <div class="navbar-brands">
+					<ul>
+						<li>
+							<a href="#">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="fab fa-twitter"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="fab fa-google-plus-g"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="fab fa-pinterest"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="fab fa-linkedin-in"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="fab fa-dribbble"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
 			</div>
-	  </div>
-
-		
+		</div>						
 	</div>
-	
+	<!--Start contact form-->
+	<div class="contact-me" id="contacts">
+		<!--<div class="get-in-touch"> -->
+			<div class="contact-form">
+				<h3>Зворотній зв'язок</h3>
+				<p>Для зв'язку зі мною, використовуйте контактну форму нижче:</p>	
+				<form action="#" method="post">
+  				<input type="text" required="" name="name" placeholder="Ім'я">
+  			  <input type="email" required="" name="email" placeholder="Email">
+  			  <input type="text" name="subject" placeholder="Тема повідомлення">
+  			  <textarea name="message" placeholder="Повідомлення...."></textarea>
+ 			  	<input type="submit" value="ВІДПРАВИТИ">	  	 
+				</form>
+			</div>
+			<div class="info">
+				<p>
+					<span>Lorem Ipsum is simply dummy text: </span>
+				 	Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged
+				</p>	
+				<ul>
+						<li>							
+							<i class="fas fa-map-marker-alt"></i>
+							<span>Україна, м.Івано-Франківськ, вул.Галицька 27</span>
+						</li>
+						<li>
+							<i class="fas fa-phone"></i>
+							<span>+38 097 123 45 67</span>
+						</li>
+						<li>
+							<i class="fas fa-envelope"></i>
+							<a href="mailto:gmail@gmail.com">gmail@gmail.com</a>
+						</li>						
+					</ul> 
+			</div>				
+	</div>
 
+<!--Start footer-->
+	<div class="footer">
+		<div class="copyright">
+			<p>&copy; Всі права захищено | Шаблон розроблено у 
+				 <a href="http://w3layouts.com/"> W3Layouts</a>
+			</p>
+			<a href="#totop" title="Повернутись на початок" class="topbutton">
+				 <img src="images/arrow_up.png" alt=""></a>			
+		</div>	
+	</div>
 </body>
 </html>
