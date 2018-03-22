@@ -33,6 +33,10 @@ body{
 	font-size: 100%;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 .navigation ul {
 	background-color: #323232;
 	margin: 0 auto;
@@ -46,11 +50,10 @@ body{
 
 .navigation li {
 	display: inline-block;			
-  padding: 0px 12px;
+  	padding: 0px 12px;
 }
 
 .navigation a {
-	/*display: block;			*/
 	color: white;
 	font-size: 0.9em;
 	text-decoration: none;
@@ -84,66 +87,48 @@ body{
 	display:block; 
 	margin: 60px auto 30px auto;
 	max-width: 100%;
-  width: auto;
-  height: auto;	 
 }
 
 .circle_btn {
 	list-style-type: none;
-	margin-left: 60px;
+	margin-left: 12%;
 	padding: 0;
 }
 
 .circle_btn li {
 	display: inline-block;
-  padding: 0px 3px;
+  	padding: 0px 3px;
 }
 
 .circle_btn a {	
 	display: block;
-  border-radius: 50%;
-  border: 1px solid #323232;
-  background: #2EB398;
-	width: 8px;
-  height: 8px;    
+  	border-radius: 50%;
+  	border: 1px solid #323232;
+  	background: #2EB398;
+	width: 10px;
+  	height: 10px;    
 }
 
 .about-me {
 	background: #2EB398;
 	padding: 20px 0;
-	/*margin: 20px 0;*/
 }
 
 .border-me {
-	border-left: 1px solid #248E78;
-  border-right: 1px solid #248E78; 
-  margin: 0 60px;
-  padding: 20px;
-}
-
-.me-image {
-	display: inline-block;
-	width: 15%;
-	padding-right: 15px;
-  padding-left: 15px;	
-  vertical-align: top;
+  	padding: 2% 2%;
+  	border-left: 1px solid #248E78;
+  	border-right: 1px solid #248E78;
 }
 
 .me-image img {
 	width: 100%;
 }
 
-.me-text {
-	display: inline-block;
-	width: 74%;
-	padding: 0 15px;
-  vertical-align: top;
-}
-
-h3 {
+.me-text h3, .contact-form h3 {
 	color: white;
 	margin-top: 20px;
 	margin-bottom: 10px; 
+	font-size: 1.4em;
 }
 
 .me-text h4 {
@@ -181,9 +166,9 @@ h3 {
 .navbar-brands ul li a i{
 	color: white;
 	line-height: 52px;
-  width: 52px;
-  height: 52px;
-  font-size: 24px;    	
+  	width: 52px;
+  	height: 52px;
+  	font-size: 24px;    	
 }
 
 .navbar-brands ul li a i.fa-facebook-f {
@@ -211,31 +196,22 @@ h3 {
 }
 
 .contact-me {
-	padding: 45px;
 	background-color: #353535;
 }
-/*.get-in-touch {
-	margin: 0 3%;
-}*/
-.contact-form {
-	width: 55%;
-	padding: 0 15px;
-	margin: 0 3%;
-	background-color: #353535;
-	display: inline-block;
-  vertical-align: top;
+.padding {
+	padding: 3%;
 }
 
-.contact-form form {
-	width: 100%;
-	/*overflow:hidden;*/
+.contact-form {
+	background-color: #353535;
+ 	/* vertical-align: top;*/
 }
 
 .contact-form p {
 	font-size: 14px;
-  color: #999999;
-  line-height: 1.5em;
-  margin: 0 0 10px;
+  	color: #999999;
+  	line-height: 1.5em;
+  	margin: 0 0 10px;
 }
 
 .contact-form form input[type="text"], input[type="email"], textarea {
@@ -257,7 +233,7 @@ h3 {
 }
 
 .contact-form form input:focus, textarea:focus {
-  border: 1px solid #2EB398;
+  	border: 1px solid #2EB398;
 }
 
 .contact-form form input:hover, textarea:hover {
@@ -268,7 +244,7 @@ h3 {
 	font-family: 'Open Sans';
 	padding: 14px 18px;
 	margin-top: 5px;
-	margin-right: -24px;
+	margin-bottom: 10px;
 	background: #2EB398;
 	color: white;
 	float: right;
@@ -284,24 +260,21 @@ h3 {
 }
 
 .info {
-	display: inline-block;
-	width: 33%;
-	padding-right: 20px;
-	margin-top: 5%;
+	margin-top: 7%;
 	background-color: #353535;	
-  vertical-align: top;
-  text-align: justify;
+	text-align: justify;
 }
 
 .info p {
 	margin: 20px 0 0;
 	color: #9C9C9C;
 	line-height: 1.8em;
-	font-size: 14px;
+	font-size: 13px;
 }
 
 .info p span {
 	color: white;
+	font-size: 14px;
 }
 
 .info ul{	
@@ -312,13 +285,13 @@ h3 {
 
 .info ul li{
 	display: block;
-  margin: 10px 0;
+  	margin: 10px 0;
 }		
 
 .info ul li i{
 	color: #2EB398;
-  height: 20px;
-  font-size: 20px;    
+  	height: 20px;
+  	font-size: 20px;    
 }
 
 .info ul span {
@@ -348,10 +321,8 @@ h3 {
 .copyright p {
 	text-align: center;
 	color: #c9c9c9;
-  font-size: 14px;
-  line-height: 1.8em;
-  /*margin: 0;
-	padding: 0;*/
+  	font-size: 14px;
+  	line-height: 1.8em;
 }
 
 .copyright a {
@@ -375,4 +346,72 @@ h3 {
 	cursor:pointer;
 }
 
-    
+/* Portfolio */
+
+.all-prj {
+	padding: 4%;
+}
+
+h2.projects {
+	text-transform: uppercase;
+	color: white;
+	background-color: #2EB398;
+	padding: 15px;
+	margin: 4% 0;
+}
+
+.project-n {
+	margin: 10px 0;
+}
+
+.project-n a {
+	text-decoration: none;
+}
+
+.project-n img {
+	width: 100%;
+	height: auto;
+}
+
+.project-n h3 {
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+.project-n h3 a{
+	color: black;
+	font-size: 1.2rem;
+	font-weight: 400;
+	/*font-variant: small-caps;*/
+	text-transform: capitalize;
+	transition: 0.3s;	
+} 
+
+.project-n h3 a:hover {
+	color: #2EB398;
+}  
+
+.project-n h4 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.project-n h4 a{
+	color: #2EB398;
+	font-style: italic;
+	font-size: 0.9rem;
+  	font-weight: 400;
+  	text-transform: capitalize;
+	transition: 0.3s;
+}
+
+.project-n h4 a:hover {
+	color: #3b3b3b;
+}
+
+.project-n p {
+	color: #323232;
+	font-size: 13px;
+  	line-height: 1.8em;
+  	margin: 5px 0 5px 0;	  
+}
