@@ -6,31 +6,52 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="fonts/css/fontawesome-all.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <!-- Мої стилі -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/font-opensans.css">
     <title>Персональний сайт Чернишова Дмитра</title>
 </head>
 <body>
-    <nav class="navigation" id="totop">
-        <ul>
-            <li>
-                <a href="portfolio.html">&emsp;&emsp;портфоліо</a>
-            </li>
-            <li>
-                <a href="blog.html">блог</a>
-            </li>
-            <li>
-                <a href="index.html">
-                    <img src="images/logo.png" alt="Логотип" align="absmiddle" border="0">  
-                </a>
-            </li>       
-            <li>
-                <a href="index.html#me">про мене</a>
-            </li>
-            <li>
-                <a href="#contacts">контакти</a>
-            </li>
-        </ul>   
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">    
+        <div class="collapse navbar-collapse" id="navbarPS">
+            <ul class="navbar-nav mx-auto mt-lg-0">
+                
+                <li class="nav-item mx-auto my-auto d-md-none">
+                    <a class="nav-link" href="index.html">
+                        <img src="images/logo.png" alt="Логотип">   
+                    </a> 
+                </li>
+
+                <li class="nav-item my-auto">
+                    <hr class="d-md-none">
+                    <a class="nav-link" href="portfolio.html">Моє портфоліо</a>
+                </li>
+                <li class="nav-item my-auto">
+                    <hr class="d-md-none">
+                    <a class="nav-link" href="blog.html">Блог</a>
+                </li>
+                <li class="nav-item my-auto d-none d-md-block">
+                    <a class="nav-link" href="index.html">
+                        <img src="images/logo.png" alt="Логотип">   
+                    </a> 
+                </li>
+                <li class="nav-item my-auto">
+                    <hr class="d-md-none">
+                    <a class="nav-link" href="index.html#me">Про мене</a>
+                </li>
+                <li class="nav-item my-auto">
+                    <hr class="d-md-none">
+                    <a class="nav-link" href="#contacts">Контакти</a>
+                    <hr class="d-md-none">
+                </li>            
+            </ul>   
+        </div>
+        
+        <a class="navbar-brand .d-none" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarPS" aria-controls="navbarPS" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
     </nav>
 
     <section class="container">
@@ -39,7 +60,7 @@
             
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-3 project-n">
-                    <a href="images/pic1.jpg">
+                    <a href="images/pic1.jpg" target="_blank">
                         <img src="images/pic1.jpg" alt="Photo Blog" >
                     </a>
                     <h3> 
@@ -51,7 +72,7 @@
                     </h4>
                 </div>        
                 <div class="col-12 col-md-6 col-lg-3 project-n">
-                    <a href="images/pic2.jpg">
+                    <a href="images/pic2.jpg" target="_blank">
                      <img src="images/pic2.jpg" alt="Photo Blog" >
                     </a>
                     <h3> 
@@ -63,7 +84,7 @@
                     </h4>  
                 </div>
                 <div class="col-12 col-md-6 col-lg-3 project-n">
-                    <a href="images/pic3.jpg">
+                    <a href="images/pic3.jpg" target="_blank">
                         <img src="images/pic3.jpg" alt="Photo Blog" >
                     </a>
                     <h3> 
@@ -75,7 +96,7 @@
                     </h4>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3 project-n">
-                    <a href="images/pic4.jpg">
+                    <a href="images/pic4.jpg" target="_blank">
                         <img src="images/pic4.jpg" alt="Photo Blog" >
                     </a>
                     <h3> 
@@ -90,7 +111,7 @@
 
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-3 project-n">
-                    <a href="images/pic5.jpg">
+                    <a href="images/pic5.jpg" target="_blank">
                         <img src="images/pic5.jpg" alt="Photo Blog" >
                     </a>
                     <h3> 
@@ -102,7 +123,7 @@
                     </h4>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3 project-n">
-                    <a href="images/pic6.jpg">
+                    <a href="images/pic6.jpg" target="_blank">
                         <img src="images/pic6.jpg" alt="Photo Blog" >
                     </a>
                     <h3> 
@@ -114,7 +135,7 @@
                     </h4>  
                 </div>
                 <div class="col-12 col-md-6 col-lg-3 project-n">
-                    <a href="images/pic7.jpg">
+                    <a href="images/pic7.jpg" target="_blank">
                         <img src="images/pic7.jpg" alt="Photo Blog" >
                     </a>
                     <h3> 
@@ -126,7 +147,7 @@
                     </h4>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3 project-n">
-                    <a href="images/pic8.jpg">
+                    <a href="images/pic8.jpg" target="_blank">
                         <img src="images/pic8.jpg" alt="Photo Blog" >
                     </a>
                     <h3> 
@@ -164,7 +185,7 @@
                     <ul>
                         <li>                            
                             <i class="fas fa-map-marker-alt"></i>
-                            <span>Україна, м.Івано-Франківськ, вул.Галицька 27</span>
+                            <span>Україна, м.Івано-Франківськ, вул.Миру 27</span>
                         </li>
                         <li>
                             <i class="fas fa-phone"></i>
@@ -183,12 +204,21 @@
     <!--Start footer-->
     <div class="footer">
         <div class="copyright">
-        <p>&copy; Всі права захищено | Шаблон розроблено у 
-            <a href="http://w3layouts.com/"> W3Layouts</a>
-        </p>
-        <a href="#totop" title="Повернутись на початок" class="topbutton">
+        <p>Усі права захищено &copy; 2017-2018  Чернишов Дмитро </p>
+        <a href="#" id="totop" title="Повернутись на початок" class="topbutton">
         <img src="images/arrow_up.png" alt=""></a>     
         </div>  
     </div>
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <!-- <script type="text/javascript" src="js/mdb.min.js"></script>-->
+    <script type="text/javascript" src="js/totop.js"></script>
 </body>
 </html>
