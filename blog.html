@@ -5,41 +5,256 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">	
   	<link rel="stylesheet" type="text/css" href="fonts/css/fontawesome-all.min.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<!-- Мої стилі -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/font-opensans.css">
   	<title>Персональний сайт Чернишова Дмитра</title>
 </head>
-<body>
-	<nav class="navigation" id="totop">
-        <ul>
-            <li>
-                <a href="portfolio.html">&emsp;&emsp;портфоліо</a>
-            </li>
-            <li>
-                <a href="blog.html">блог</a>
-            </li>
-            <li>
-                <a href="index.html">
-                    <img src="images/logo.png" alt="Логотип" align="absmiddle" border="0">  
-                </a>
-            </li>       
-            <li>
-                <a href="index.html#me">про мене</a>
-            </li>
-            <li>
-                <a href="#contacts">контакти</a>
-            </li>
-        </ul>   
-    </nav>
+<body>	
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark">    
+	  	<div class="collapse navbar-collapse" id="navbarPS">
+		    <ul class="navbar-nav mx-auto mt-lg-0">
+		      	
+				<li class="nav-item mx-auto my-auto d-md-none">
+					<a class="nav-link" href="index.html">
+						<img src="images/logo.png" alt="Логотип">	
+					</a> 
+				</li>
+
+		      	<li class="nav-item my-auto">
+		      		<hr class="d-md-none">
+					<a class="nav-link" href="portfolio.html">Моє портфоліо</a>
+				</li>
+				<li class="nav-item my-auto">
+					<hr class="d-md-none">
+					<a class="nav-link" href="blog.html">Блог</a>
+				</li>
+				<li class="nav-item my-auto d-none d-md-block">
+					<a class="nav-link" href="index.html">
+						<img src="images/logo.png" alt="Логотип">	
+					</a> 
+				</li>
+				<li class="nav-item my-auto">
+					<hr class="d-md-none">
+					<a class="nav-link" href="index.html#me">Про мене</a>
+				</li>
+				<li class="nav-item my-auto">
+					<hr class="d-md-none">
+					<a class="nav-link" href="#contacts">Контакти</a>
+					<hr class="d-md-none">
+				</li>            
+		    </ul>   
+	  	</div>
+		
+		<a class="navbar-brand .d-none" href="#"></a>
+	  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarPS" aria-controls="navbarPS" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  	</button>
+	</nav>
 
 	<!-- Start main section -->
 	<div class="blog">
 		<div class="container">
-			<div class="row ">
-				
+			<div class="row blogs">
+				<div class="col-lg-8 left-clmn">
+					<div class="blog-n">
+						<h2 class="blogs-hdr">Мої останні блоги</h2>
+						<a href="#">
+							<img src="images/blog1.jpg" alt="blog image">	
+						</a>
+						<h4>
+							<a href="#">Lorem ipsum laboris laboris anim labore esse</a>
+						</h4>
+						<div class="blog-l">
+							<ul>
+								<li>
+									<i class="fas fa-calendar"></i>
+									<span>23.03.2018</span>		
+								</li>
+								<li>
+									<a href="#">
+										<i class="fas fa-comment"></i>
+										<span>Коментарі</span>
+									</a>	
+								</li>
+								<li>									
+									<i class="fas fa-user"></i>
+									<span>Адміністратор</span>	
+								</li>
+								<li>
+									<a href="#">
+										<i class="fas fa-eye"></i>
+										<span>321 перегляд</span>
+									</a>	
+								</li>
+							</ul>
+						</div>
+						<div class="blog-r">
+							<a href="#">
+								<i class="fas fa-heart"></i>
+								<span>72</span>
+							</a>	
+						</div>
+						<div class="clearfix"></div>						
+						<p class="blog-text">
+							Lorem ipsum aliqua deserunt minim est do ullamco anim in ut esse irure exercitation consectetur reprehenderit ut in laboris proident ad voluptate in quis et eu aliquip sed aliqua sed eiusmod ex ut excepteur consequat dolore non. Minim incididunt eu nisi ut adipisicing labore officia occaecat commodo ut nulla et non sed minim nostrud aliquip sit consectetur dolore ea duis incididunt cillum exercitation aliqua minim exercitation incididunt ex dolor dolor ullamco do anim sunt.
+						</p>
+						<button class="btn-blogview">
+							<a href="#">Переглянути</a>
+						</button>
+					</div>
+					
+					<div class="blog-n">
+						<a href="#">
+							<img src="images/blog2.jpg" alt="blog image">	
+						</a>
+						<h4>
+							<a href="#">Fugiat deserunt culpa elit</a>
+						</h4>
+						<div class="blog-l">
+							<ul>
+								<li>
+									<i class="fas fa-calendar"></i>
+									<span>20.03.2018</span>		
+								</li>
+								<li>
+									<a href="#">
+										<i class="fas fa-comment"></i>
+										<span>Коментарі</span>
+									</a>	
+								</li>
+								<li>									
+									<i class="fas fa-user"></i>
+									<span>Адміністратор</span>	
+								</li>
+								<li>
+									<a href="#">
+										<i class="fas fa-eye"></i>
+										<span>415 переглядів</span>
+									</a>	
+								</li>
+							</ul>
+						</div>
+						<div class="blog-r">
+							<a href="#">
+								<i class="fas fa-heart"></i>
+								<span>107</span>
+							</a>	
+						</div>
+						<div class="clearfix"></div>						
+						<p class="blog-text">
+							Lorem ipsum esse ullamco nostrud dolore irure culpa est deserunt id do minim incididunt sint quis sunt ad culpa aliqua id. Laborum velit minim dolor enim cupidatat eu commodo dolor culpa tempor do esse veniam ex ut irure labore nostrud cupidatat consequat. Pariatur dolor consequat excepteur officia ea anim cillum nostrud ut consequat nostrud ut aute excepteur sed ullamco dolor dolore. Sed pariatur elit magna aliquip laborum aliqua exercitation est magna minim dolore eu ex aliqua sunt irure adipisicing commodo non dolore nisi est do dolor anim ex in deserunt magna consequat ut.
+						</p>
+						<button class="btn-blogview">
+							<a href="#">Переглянути</a>
+						</button>
+					</div>					
+				</div>
+				<div class="col-lg-4 right-clmn">
+					<h4>теги</h4>
+					<ul class="ul-tags">
+						<li class="active">
+							<a href="#">дизайн</a>
+						</li>
+						<li>
+							<a href="#">графіка</a>
+						</li>
+						<li>
+							<a href="#">wordpress</a>
+						</li>
+						<li>
+							<a href="#">drupal</a>
+						</li>
+						<li>
+							<a href="#">joomla</a>
+						</li>
+						<li>
+							<a href="#">HTML</a>
+						</li>
+						<li>
+							<a href="#">CSS</a>
+						</li>
+						<li>
+							<a href="#">JavaScript</a>
+						</li>
+						<li>
+							<a href="#">про різне</a>
+						</li>
+					</ul>
+
+
+					<div class="networks">
+						<ul class="networks-list">
+							<li>
+								<a href="#" class="a-twitter">
+									<div class="followers">
+										<p>
+											<span>1k</span>	
+											Підписників	
+										</p>
+									</div>
+									<div class="icon">
+										<i class="i-twitter"></i>	
+									</div>
+								</a>	
+							</li>
+							<li>
+								<a href="#" class="a-fb">
+									<div class="followers">
+										<p>
+											<span>2k</span>	
+											Підписників	
+										</p>	
+									</div>
+									<div class="icon">
+										<i class="i-fb"></i>	
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="a-email">
+									<div class="followers">
+										<p>
+											<span>3k</span>	
+											Підписників	
+										</p>	
+									</div>
+									<div class="icon">
+										<i class="i-email"></i>	
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="a-dribble">
+									<div class="followers">
+										<p>
+											<span>4k</span>	
+											Підписників	
+										</p>	
+									</div>
+									<div class="icon">
+										<i class="i-dribble"></i>	
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="subscribe">
+						<h4>розсилка новин</h4>
+						<form action="#" method="post">	  				
+			  			  	<input type="email" required="" name="email" placeholder="Ваша електронна адреса">
+			  			  	<input type="submit" value="підписатись">	  	 
+						</form>	
+					</div>
+					
+
+				</div>					
 			</div>
 		</div>
 	</div>
+
     <!--Start contact form-->
     <div class="contact-me" id="contacts">
         <div class="container">
@@ -63,7 +278,7 @@
                     <ul>
                         <li>                            
                             <i class="fas fa-map-marker-alt"></i>
-                            <span>Україна, м.Івано-Франківськ, вул.Галицька 27</span>
+                            <span>Україна, м.Івано-Франківськ, вул.Миру 27</span>
                         </li>
                         <li>
                             <i class="fas fa-phone"></i>
@@ -82,13 +297,21 @@
 	<!--Start footer-->
     <div class="footer">
         <div class="copyright">
-        <p>&copy; Всі права захищено | Шаблон розроблено у 
-            <a href="http://w3layouts.com/"> W3Layouts</a>
-        </p>
-        <a href="#totop" title="Повернутись на початок" class="topbutton">
+        <p>Усі права захищено &copy; 2017-2018  Чернишов Дмитро </p>
+        <a href="#" id="totop" title="Повернутись на початок" class="topbutton">
         <img src="images/arrow_up.png" alt=""></a>     
         </div>  
     </div>
 	
+	<!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <!-- <script type="text/javascript" src="js/mdb.min.js"></script>-->
+    <script type="text/javascript" src="js/totop.js"></script>
 </body>
 </html>
